@@ -1,12 +1,12 @@
-﻿using Lab_2.Interface;
-using Lab_2.Models;
+﻿using Warehouse.Back.Interface;
+using Warehouse.Back.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_2.Service
+namespace Warehouse.Back.Service
 {
     public class WarehouseService : IWarehouseService
     {

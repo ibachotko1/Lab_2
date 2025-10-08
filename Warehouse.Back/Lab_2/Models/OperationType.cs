@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_2.Models
+namespace Warehouse.Back.Models
 {
     public enum OperationType
     {
