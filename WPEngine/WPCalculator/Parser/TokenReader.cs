@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WPCalculator.Parser
 {
-    private class TokenReader
+    public class TokenReader
     {
         private readonly List<Token> _tokens;
         private int _index;

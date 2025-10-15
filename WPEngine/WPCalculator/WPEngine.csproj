@@ -49,10 +49,16 @@
     <Compile Include="Expressions\Expression.cs" />
     <Compile Include="Expressions\UnaryExpression.cs" />
     <Compile Include="Expressions\VariableExpression.cs" />
+    <Compile Include="Parser\Parser.cs" />
+    <Compile Include="Parser\Token.cs" />
+    <Compile Include="Parser\TokenReader.cs" />
+    <Compile Include="Parser\TokenType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Statements\Assignment.cs" />
+    <Compile Include="Statements\IfStatement.cs" />
+    <Compile Include="Statements\Sequence.cs" />
     <Compile Include="Statements\Statement.cs" />
-    <Compile Include="Statements\StepTracker.cs" />
+    <Compile Include="Loggs\StepTracker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
