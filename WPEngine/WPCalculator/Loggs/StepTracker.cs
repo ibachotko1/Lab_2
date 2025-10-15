@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WPCalculator.Statements
+namespace WPCalculator.Loggs
 {
     /// <summary>
     /// Отслеживает и записывает шаги вычисления слабейшего предусловия

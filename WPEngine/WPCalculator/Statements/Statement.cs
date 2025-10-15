@@ -1,4 +1,5 @@
-﻿using WPEngine.Expressions;
+﻿using WPCalculator.Loggs;
+using WPEngine.Expressions;
 
 namespace WPCalculator.Statements
 {

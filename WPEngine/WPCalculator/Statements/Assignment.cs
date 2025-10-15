@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using WPCalculator.Expressions;
+using WPCalculator.Loggs;
 using WPEngine.Expressions;
 
 namespace WPCalculator.Statements
