@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|c:\\users\\dmitriy\\source\\repos\\wpengine\\wpcalculator\\statements\\steptracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\steptracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|c:\\users\\dmitriy\\source\\repos\\wpengine\\wpcalculator\\statements\\statement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\statement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|c:\\users\\dmitriy\\source\\repos\\wpengine\\wpcalculator\\statements\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|c:\\users\\dmitriy\\source\\repos\\wpengine\\wpcalculator\\expressions\\unaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\unaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|c:\\users\\dmitriy\\source\\repos\\wpengine\\wpcalculator\\expressions\\variableexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\variableexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|c:\\users\\dmitriy\\source\\repos\\wpengine\\wpcalculator\\expressions\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|c:\\users\\dmitriy\\source\\repos\\wpengine\\wpcalculator\\expressions\\constantexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\constantexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|c:\\users\\dmitriy\\source\\repos\\wpengine\\wpcalculator\\expressions\\binaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\binaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Statements\\Assignment.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Statements\\Assignment.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Statements\\Assignment.cs",
+              "RelativeToolTip": "WPCalculator\\Statements\\Assignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:37:49.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StepTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Statements\\StepTracker.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Statements\\StepTracker.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Statements\\StepTracker.cs",
+              "RelativeToolTip": "WPCalculator\\Statements\\StepTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:37:12.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Statement.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Statements\\Statement.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Statements\\Statement.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Statements\\Statement.cs",
+              "RelativeToolTip": "WPCalculator\\Statements\\Statement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:36:32.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnaryExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\UnaryExpression.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\UnaryExpression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\UnaryExpression.cs",
+              "RelativeToolTip": "WPCalculator\\Expressions\\UnaryExpression.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:35:27.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BinaryExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\BinaryExpression.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\BinaryExpression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\BinaryExpression.cs",
+              "RelativeToolTip": "WPCalculator\\Expressions\\BinaryExpression.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:32:28.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VariableExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\VariableExpression.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\VariableExpression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\VariableExpression.cs",
+              "RelativeToolTip": "WPCalculator\\Expressions\\VariableExpression.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:31:52.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConstantExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\ConstantExpression.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\ConstantExpression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\ConstantExpression.cs",
+              "RelativeToolTip": "WPCalculator\\Expressions\\ConstantExpression.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:30:52.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Expression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\Expression.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\Expression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\source\\repos\\WPEngine\\WPCalculator\\Expressions\\Expression.cs",
+              "RelativeToolTip": "WPCalculator\\Expressions\\Expression.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:28:33.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
