@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using WPCalculator.Expressions;
-using WPCalculator.Loggs;
+using WPEngine.Expressions;
+using WPEngine.Loggs;
 using WPEngine.Expressions;
 
-namespace WPCalculator.Statements
+namespace WPEngine.Statements
 {
     /// <summary>
     /// Представляет оператор присваивания переменной значения выражения

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WPEngine.Expressions;
 
-namespace WPCalculator.Expressions
+namespace WPEngine.Expressions
 {
     /// <summary>
     /// Представляет унарную операцию

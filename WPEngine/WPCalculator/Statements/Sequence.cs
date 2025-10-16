@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using WPCalculator.Loggs;
+using WPEngine.Loggs;
 using WPEngine.Expressions;
 
-namespace WPCalculator.Statements
+namespace WPEngine.Statements
 {
     /// <summary>
     /// Представляет последовательность операторов (композицию)

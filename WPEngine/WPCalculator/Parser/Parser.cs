@@ -4,11 +4,11 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WPCalculator.Expressions;
-using WPCalculator.Statements;
 using WPEngine.Expressions;
+using WPEngine.Statements;
 
-namespace WPCalculator.Parser
+
+namespace WPEngine.Parser
 {
     /// <summary>
     /// Парсер для преобразования строкового представления в объекты Expression и Statement
@@ -33,12 +33,6 @@ namespace WPCalculator.Parser
             ["abs"] = 7 // унарные операции
         };
 
-        /// <summary>
-        /// Парсит выражение из строки
-        /// </summary>
-        /// <param name="input">Строка для парсинга</param>
-        /// <returns>Распарсенное выражение</returns>
-        /// <exception cref="FormatException">Выбрасывается при синтаксической ошибке</exception>
         public static Expression ParseExpression(string input)
         {
             if (string.IsNullOrWhiteSpace(input))
@@ -51,12 +45,10 @@ namespace WPCalculator.Parser
 
         private static Expression ParseExpression(TokenReader reader, int minPrecedence)
         {
-            // Парсим левый операнд (возможно, унарную операцию)
             Expression left = ParsePrimary(reader);
 
             while (true)
             {
-                // Смотрим на следующий токен, если это бинарный оператор с достаточным приоритетом
                 var operatorToken = reader.Peek();
                 if (operatorToken == null || operatorToken.Type != TokenType.Operator)
                     break;
@@ -65,13 +57,9 @@ namespace WPCalculator.Parser
                 if (!OperatorPrecedence.ContainsKey(op) || OperatorPrecedence[op] < minPrecedence)
                     break;
 
-                // Потребляем оператор
                 reader.Read();
                 int nextMinPrecedence = OperatorPrecedence[op] + 1;
-
-                // Парсим правый операнд
                 Expression right = ParseExpression(reader, nextMinPrecedence);
-
                 left = new BinaryExpression(left, right, op);
             }
 
@@ -92,24 +80,19 @@ namespace WPCalculator.Parser
                     throw new FormatException($"Неверный формат числа: {token.Value}");
 
                 case TokenType.Identifier:
-                    // Проверяем, не является ли это унарной операцией
                     if (token.Value == "abs")
                     {
-                        // Ожидаем открывающую скобку
                         var next = reader.Read();
                         if (next == null || next.Type != TokenType.Punctuation || next.Value != "(")
                             throw new FormatException("Ожидалась '(' после 'abs'");
-
                         var inner = ParseExpression(reader, 0);
                         var close = reader.Read();
                         if (close == null || close.Type != TokenType.Punctuation || close.Value != ")")
                             throw new FormatException("Ожидалась ')' после выражения в 'abs'");
-
                         return new UnaryExpression(inner, "abs");
                     }
                     else if (token.Value == "!")
                     {
-                        // Унарное отрицание
                         var inner = ParsePrimary(reader);
                         return new UnaryExpression(inner, "!");
                     }
@@ -130,7 +113,6 @@ namespace WPCalculator.Parser
             }
         }
 
-        // Токенизация: разбиваем строку на токены
         private static List<Token> Tokenize(string input)
         {
             var tokens = new List<Token>();
@@ -146,27 +128,17 @@ namespace WPCalculator.Parser
                     continue;
                 }
 
-                if (char.IsDigit(c) || c == '.')
+                // 🔸 Сначала проверяем двухсимвольные операторы
+
+                // Присваивание :=
+                if (c == ':' && index + 1 < input.Length && input[index + 1] == '=')
                 {
-                    // Парсим число
-                    int start = index;
-                    while (index < input.Length && (char.IsDigit(input[index]) || input[index] == '.'))
-                        index++;
-                    tokens.Add(new Token(TokenType.Number, input.Substring(start, index - start)));
+                    tokens.Add(new Token(TokenType.Operator, ":="));
+                    index += 2;
                     continue;
                 }
 
-                if (char.IsLetter(c))
-                {
-                    // Парсим идентификатор или ключевое слово
-                    int start = index;
-                    while (index < input.Length && (char.IsLetterOrDigit(input[index]) || input[index] == '_'))
-                        index++;
-                    tokens.Add(new Token(TokenType.Identifier, input.Substring(start, index - start)));
-                    continue;
-                }
-
-                // Операторы и пунктуация
+                // Логические и сравнения
                 if (c == '&' && index + 1 < input.Length && input[index + 1] == '&')
                 {
                     tokens.Add(new Token(TokenType.Operator, "&&"));
@@ -209,7 +181,27 @@ namespace WPCalculator.Parser
                     continue;
                 }
 
-                // Одиночные символы операторов и пунктуации
+                // Числа
+                if (char.IsDigit(c) || c == '.')
+                {
+                    int start = index;
+                    while (index < input.Length && (char.IsDigit(input[index]) || input[index] == '.'))
+                        index++;
+                    tokens.Add(new Token(TokenType.Number, input.Substring(start, index - start)));
+                    continue;
+                }
+
+                // Идентификаторы
+                if (char.IsLetter(c))
+                {
+                    int start = index;
+                    while (index < input.Length && (char.IsLetterOrDigit(input[index]) || input[index] == '_'))
+                        index++;
+                    tokens.Add(new Token(TokenType.Identifier, input.Substring(start, index - start)));
+                    continue;
+                }
+
+                // Одиночные операторы (+, -, *, /, !)
                 if (OperatorPrecedence.ContainsKey(c.ToString()))
                 {
                     tokens.Add(new Token(TokenType.Operator, c.ToString()));
@@ -217,6 +209,7 @@ namespace WPCalculator.Parser
                     continue;
                 }
 
+                // Пунктуация: скобки, точки с запятой, фигурные скобки
                 if (c == '(' || c == ')' || c == ';' || c == '{' || c == '}')
                 {
                     tokens.Add(new Token(TokenType.Punctuation, c.ToString()));
@@ -224,19 +217,13 @@ namespace WPCalculator.Parser
                     continue;
                 }
 
+                // ❌ Ничего не подошло — неизвестный символ
                 throw new FormatException($"Неизвестный символ: {c}");
             }
 
             return tokens;
         }
 
-
-        /// <summary>
-        /// Парсит оператор из строки
-        /// </summary>
-        /// <param name="input">Строка для парсинга</param>
-        /// <returns>Распарсенный оператор</returns>
-        /// <exception cref="FormatException">Выбрасывается при синтаксической ошибке</exception>
         public static Statement ParseStatement(string input)
         {
             if (string.IsNullOrWhiteSpace(input))
@@ -246,7 +233,6 @@ namespace WPCalculator.Parser
             var reader = new TokenReader(tokens);
             var statement = ParseStatement(reader);
 
-            // Убедимся, что достигли конца
             if (reader.Peek() != null)
                 throw new FormatException("Неожиданный токен в конце оператора");
 
@@ -255,23 +241,48 @@ namespace WPCalculator.Parser
 
         private static Statement ParseStatement(TokenReader reader)
         {
-            // Пробуем распарсить if
             var token = reader.Peek();
+
+            // Обработка блока: { ... }
+            if (token != null && token.Type == TokenType.Punctuation && token.Value == "{")
+            {
+                reader.Read(); // потребляем '{'
+
+                var statements = new List<Statement>();
+                while (true)
+                {
+                    var next = reader.Peek();
+                    if (next == null) throw new FormatException("Ожидалась '}'");
+                    if (next.Type == TokenType.Punctuation && next.Value == "}")
+                        break;
+
+                    statements.Add(ParseSingleStatement(reader));
+
+                    // Пропускаем ';', если есть
+                    var semi = reader.Peek();
+                    if (semi != null && semi.Type == TokenType.Punctuation && semi.Value == ";")
+                        reader.Read();
+                }
+
+                reader.Read(); // потребляем '}'
+
+                return statements.Count == 1 ? statements[0] : new Sequence(statements);
+            }
+
+            // Обработка if
             if (token != null && token.Type == TokenType.Identifier && token.Value == "if")
             {
                 return ParseIfStatement(reader);
             }
 
-            // Иначе парсим присваивание или последовательность
+            // Обычное присваивание или последовательность
             return ParseSequence(reader);
         }
 
         private static Statement ParseIfStatement(TokenReader reader)
         {
-            // Потребляем "if"
-            reader.Read();
+            reader.Read(); // "if"
 
-            // Ожидаем условие в скобках
             var openParen = reader.Read();
             if (openParen == null || openParen.Type != TokenType.Punctuation || openParen.Value != "(")
                 throw new FormatException("Ожидалась '(' после 'if'");
@@ -282,10 +293,8 @@ namespace WPCalculator.Parser
             if (closeParen == null || closeParen.Type != TokenType.Punctuation || closeParen.Value != ")")
                 throw new FormatException("Ожидалась ')' после условия if");
 
-            // Парсим then ветку
             var thenBranch = ParseStatement(reader);
 
-            // Проверяем, есть ли else
             var elseToken = reader.Peek();
             if (elseToken != null && elseToken.Type == TokenType.Identifier && elseToken.Value == "else")
             {
@@ -294,9 +303,7 @@ namespace WPCalculator.Parser
                 return new IfStatement(condition, thenBranch, elseBranch);
             }
 
-            // Если else нет, то создаем пустой оператор для else ветки?
-            // Но в задании указана полная форма if, так что ожидаем else.
-            throw new FormatException("Ожидалось 'else'");
+            throw new FormatException("Ожидалось 'else'"); // полная форма if
         }
 
         private static Statement ParseSequence(TokenReader reader)
@@ -311,7 +318,7 @@ namespace WPCalculator.Parser
                 if (next == null || next.Value != ";")
                     break;
 
-                reader.Read(); // потребляем ';'
+                reader.Read(); // ';'
             }
 
             return statements.Count == 1 ? statements[0] : new Sequence(statements);
@@ -319,7 +326,6 @@ namespace WPCalculator.Parser
 
         private static Statement ParseSingleStatement(TokenReader reader)
         {
-            // Ожидаем присваивание: идентификатор, затем ":=", затем выражение
             var identifier = reader.Read();
             if (identifier == null || identifier.Type != TokenType.Identifier)
                 throw new FormatException("Ожидался идентификатор");

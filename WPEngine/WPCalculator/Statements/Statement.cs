@@ -1,7 +1,7 @@
-﻿using WPCalculator.Loggs;
+﻿using WPEngine.Loggs;
 using WPEngine.Expressions;
 
-namespace WPCalculator.Statements
+namespace WPEngine.Statements
 {
     /// <summary>
     /// Абстрактное представление оператора программы

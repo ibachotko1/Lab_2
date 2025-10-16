@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using WPEngine.Expressions;
 
-namespace WPCalculator.Expressions
+namespace WPEngine.Expressions
 {
     /// <summary>
     /// Представляет константное значение (числовую константу)

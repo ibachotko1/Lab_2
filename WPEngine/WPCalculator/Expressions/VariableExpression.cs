@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using WPEngine.Expressions;
 
-namespace WPCalculator.Expressions
+namespace WPEngine.Expressions
 {
     /// <summary>
     /// Представляет переменную в выражении

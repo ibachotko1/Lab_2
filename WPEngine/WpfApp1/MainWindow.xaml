@@ -1,0 +1,197 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WP Calculator — Лабораторная №2" 
+        Height="760" Width="1100"
+        FontFamily="Segoe UI"
+        Background="#F8F9FA"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <!-- Стиль для "плейсхолдера" -->
+        <Style x:Key="PlaceholderTextBox" TargetType="TextBox">
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="BorderBrush" Value="#E2E8F0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid>
+                            <Border Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    CornerRadius="4"/>
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                          Margin="10,6" 
+                                          VerticalAlignment="Center"/>
+                            <TextBlock x:Name="Placeholder" 
+                                       Text="{TemplateBinding Tag}" 
+                                       Foreground="#A0AEC0" 
+                                       FontStyle="Italic"
+                                       Margin="10,6"
+                                       VerticalAlignment="Center"
+                                       Visibility="Collapsed"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="Text" Value=""/>
+                                    <Condition Property="IsKeyboardFocused" Value="False"/>
+                                </MultiTrigger.Conditions>
+                                <Setter TargetName="Placeholder" Property="Visibility" Value="Visible"/>
+                            </MultiTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Общие стили -->
+        <Style TargetType="GroupBox">
+            <Setter Property="Margin" Value="0,0,0,16"/>
+            <Setter Property="Padding" Value="12"/>
+            <Setter Property="BorderBrush" Value="#E0E0E0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="HeaderTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" 
+                                   FontWeight="SemiBold" 
+                                   FontSize="14" 
+                                   Foreground="#2D3748"/>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="16,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Background" Value="#4F46E5"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#4338CA"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="#CBD5E1"/>
+                    <Setter Property="Foreground" Value="#A0AEC0"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,8"/>
+        </Style>
+
+        <Style TargetType="TextBox" BasedOn="{StaticResource PlaceholderTextBox}" />
+
+        <Style TargetType="ListBox">
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#E2E8F0"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Постусловие -->
+        <GroupBox Header="🎯 Цель (Post)" Grid.Row="0">
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="PostConditionInput" Width="280" 
+                         Tag="Например: max > 100" 
+                         Margin="0,0,16,0"/>
+                <TextBlock Text="Человеческим языком:" 
+                           VerticalAlignment="Center" 
+                           FontSize="14" 
+                           Foreground="#4A5568"
+                           Margin="0,0,16,0"/>
+                <TextBox x:Name="PostHumanInput" Width="360" 
+                         Tag="Например: Максимум больше 100"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Основная область -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" MinWidth="320"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*" MinWidth="320"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Ввод программы -->
+            <GroupBox Header="🧮 Конструктор фрагмента (без циклов)" Grid.Column="0" Margin="0,0,12,0">
+                <TextBox x:Name="CodeInput"
+                         AcceptsReturn="True"
+                         TextWrapping="Wrap"
+                         VerticalScrollBarVisibility="Auto"
+                         FontFamily="Consolas"
+                         FontSize="14"
+                         Background="White"
+                         BorderBrush="#E2E8F0"/>
+            </GroupBox>
+
+            <!-- Разделитель -->
+            <GridSplitter Grid.Column="1" Width="8" 
+                          HorizontalAlignment="Center" 
+                          Background="Transparent"/>
+
+            <!-- Результат -->
+            <TabControl Grid.Column="2" Margin="12,0,0,0" 
+                        Background="White" 
+                        BorderBrush="#E2E8F0">
+                <TabItem Header="📊 Результат">
+                    <ScrollViewer Padding="12">
+                        <StackPanel x:Name="ResultPanel" />
+                    </ScrollViewer>
+                </TabItem>
+                <TabItem Header="🔍 Пошаговые преобразования">
+                    <ListBox x:Name="StepsList" 
+                             Padding="8"
+                             ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+                </TabItem>
+            </TabControl>
+        </Grid>
+
+        <!-- Управление -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                    HorizontalAlignment="Right" 
+                    Margin="0,20,0,0">
+            <Button Content="Рассчитать wp" Click="OnCalculateClick" Margin="0,0,12,0"/>
+            <Button x:Name="TriadButton" Content="Показать триаду" 
+                    Click="OnShowTriadClick" IsEnabled="False" Margin="0,0,12,0"/>
+            <ComboBox x:Name="PresetSelector" Width="240" 
+                      SelectionChanged="OnPresetSelected">
+                <ComboBoxItem Content="— Выберите пресет —" IsSelected="True"/>
+                <ComboBoxItem Content="Max из двух"/>
+                <ComboBoxItem Content="Квадратное уравнение (D)"/>
+                <ComboBoxItem Content="Последовательность присваиваний"/>
+            </ComboBox>
+        </StackPanel>
+    </Grid>
+</Window>
