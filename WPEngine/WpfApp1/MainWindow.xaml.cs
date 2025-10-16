@@ -71,14 +71,6 @@ namespace WpfApp1
                 FontSize = 14,
                 Margin = new Thickness(0, 0, 0, 10)
             });
-
-            ResultPanel.Children.Add(new TextBlock
-            {
-                Text = $"Человеческим языком: {PostHumanInput.Text}",
-                TextWrapping = TextWrapping.Wrap,
-                FontStyle = FontStyles.Italic,
-                Margin = new Thickness(0, 0, 0, 10)
-            });
         }
 
         private void DisplaySteps(System.Collections.Generic.IReadOnlyList<string> steps)
@@ -125,15 +117,15 @@ namespace WpfApp1
                     break;
 
                 case "Квадратное уравнение (D)":
-                    PostConditionInput.Text = "(D >= 0 && root == 1) || (D < 0 && root == -999)";
-                    PostHumanInput.Text = "Если дискриминант неотрицателен, корень равен 1; иначе — специальное значение -999";
-                    CodeInput.Text = "D := b * b - 4 * a * c; if (D >= 0) { root := 1; } else { root := -999; }";
+                    PostConditionInput.Text = "(D >= 0 && root == 1) || (D < 0 && root == 999)";
+                    PostHumanInput.Text = "Если дискриминант неотрицателен, корень равен 1; иначе — специальное значение 999";
+                    CodeInput.Text = "{ D := b * b - 4 * a * c; if (D >= 0) { root := 1; } else { root := 999; } }";
                     break;
 
                 case "Последовательность присваиваний":
                     PostConditionInput.Text = "y == x - 9 && x > 15";
                     PostHumanInput.Text = "y равен x минус 9, и x больше 15";
-                    CodeInput.Text = "x := x + 10; y := x + 1;";
+                    CodeInput.Text = "{ y := x + 1; x := x + 10; }";
                     break;
             }
         }

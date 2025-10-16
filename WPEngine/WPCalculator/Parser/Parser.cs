@@ -7,12 +7,8 @@ using System.Threading.Tasks;
 using WPEngine.Expressions;
 using WPEngine.Statements;
 
-
 namespace WPEngine.Parser
 {
-    /// <summary>
-    /// Парсер для преобразования строкового представления в объекты Expression и Statement
-    /// </summary>
     public static class Parser
     {
         private static readonly Dictionary<string, int> OperatorPrecedence = new Dictionary<string, int>()
@@ -30,7 +26,7 @@ namespace WPEngine.Parser
             ["*"] = 6,
             ["/"] = 6,
             ["!"] = 7,
-            ["abs"] = 7 // унарные операции
+            ["abs"] = 7
         };
 
         public static Expression ParseExpression(string input)
@@ -71,6 +67,13 @@ namespace WPEngine.Parser
             var token = reader.Read();
             if (token == null)
                 throw new FormatException("Неожиданный конец выражения");
+
+            // 🔸 Поддержка унарного минуса: -expr
+            if (token.Type == TokenType.Operator && token.Value == "-")
+            {
+                var operand = ParsePrimary(reader); // рекурсивно парсим операнд
+                return new UnaryExpression(operand, "neg"); // используем "neg" как унарный минус
+            }
 
             switch (token.Type)
             {
@@ -128,8 +131,6 @@ namespace WPEngine.Parser
                     continue;
                 }
 
-                // 🔸 Сначала проверяем двухсимвольные операторы
-
                 // Присваивание :=
                 if (c == ':' && index + 1 < input.Length && input[index + 1] == '=')
                 {
@@ -138,7 +139,6 @@ namespace WPEngine.Parser
                     continue;
                 }
 
-                // Логические и сравнения
                 if (c == '&' && index + 1 < input.Length && input[index + 1] == '&')
                 {
                     tokens.Add(new Token(TokenType.Operator, "&&"));
@@ -181,7 +181,7 @@ namespace WPEngine.Parser
                     continue;
                 }
 
-                // Числа
+                // Числа (включая отрицательные, но минус обрабатывается отдельно)
                 if (char.IsDigit(c) || c == '.')
                 {
                     int start = index;
@@ -191,7 +191,6 @@ namespace WPEngine.Parser
                     continue;
                 }
 
-                // Идентификаторы
                 if (char.IsLetter(c))
                 {
                     int start = index;
@@ -209,7 +208,6 @@ namespace WPEngine.Parser
                     continue;
                 }
 
-                // Пунктуация: скобки, точки с запятой, фигурные скобки
                 if (c == '(' || c == ')' || c == ';' || c == '{' || c == '}')
                 {
                     tokens.Add(new Token(TokenType.Punctuation, c.ToString()));
@@ -217,7 +215,6 @@ namespace WPEngine.Parser
                     continue;
                 }
 
-                // ❌ Ничего не подошло — неизвестный символ
                 throw new FormatException($"Неизвестный символ: {c}");
             }
 
@@ -246,7 +243,7 @@ namespace WPEngine.Parser
             // Обработка блока: { ... }
             if (token != null && token.Type == TokenType.Punctuation && token.Value == "{")
             {
-                reader.Read(); // потребляем '{'
+                reader.Read(); // '{'
 
                 var statements = new List<Statement>();
                 while (true)
@@ -256,7 +253,8 @@ namespace WPEngine.Parser
                     if (next.Type == TokenType.Punctuation && next.Value == "}")
                         break;
 
-                    statements.Add(ParseSingleStatement(reader));
+                    // 🔸 ВАЖНО: используем ParseStatement, а не ParseSingleStatement!
+                    statements.Add(ParseStatement(reader));
 
                     // Пропускаем ';', если есть
                     var semi = reader.Peek();
@@ -264,7 +262,7 @@ namespace WPEngine.Parser
                         reader.Read();
                 }
 
-                reader.Read(); // потребляем '}'
+                reader.Read(); // '}'
 
                 return statements.Count == 1 ? statements[0] : new Sequence(statements);
             }
@@ -275,14 +273,13 @@ namespace WPEngine.Parser
                 return ParseIfStatement(reader);
             }
 
-            // Обычное присваивание или последовательность
-            return ParseSequence(reader);
+            // Присваивание (последний вариант)
+            return ParseSingleStatement(reader);
         }
 
         private static Statement ParseIfStatement(TokenReader reader)
         {
-            reader.Read(); // "if"
-
+            reader.Read();
             var openParen = reader.Read();
             if (openParen == null || openParen.Type != TokenType.Punctuation || openParen.Value != "(")
                 throw new FormatException("Ожидалась '(' после 'if'");
@@ -303,24 +300,20 @@ namespace WPEngine.Parser
                 return new IfStatement(condition, thenBranch, elseBranch);
             }
 
-            throw new FormatException("Ожидалось 'else'"); // полная форма if
+            throw new FormatException("Ожидалось 'else'");
         }
 
         private static Statement ParseSequence(TokenReader reader)
         {
             var statements = new List<Statement>();
-
             while (true)
             {
                 statements.Add(ParseSingleStatement(reader));
-
                 var next = reader.Peek();
                 if (next == null || next.Value != ";")
                     break;
-
-                reader.Read(); // ';'
+                reader.Read();
             }
-
             return statements.Count == 1 ? statements[0] : new Sequence(statements);
         }
 

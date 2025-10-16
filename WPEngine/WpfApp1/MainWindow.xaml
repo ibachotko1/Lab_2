@@ -123,15 +123,16 @@
         <!-- Постусловие -->
         <GroupBox Header="🎯 Цель (Post)" Grid.Row="0">
             <StackPanel Orientation="Horizontal">
-                <TextBox x:Name="PostConditionInput" Width="280" 
-                         Tag="Например: max > 100" 
-                         Margin="0,0,16,0"/>
-                <TextBlock Text="Человеческим языком:" 
+                <TextBox x:Name="PostConditionInput" Width="320" Height="45" 
+                         TextWrapping="Wrap" AcceptsReturn="True"
+                         Tag="Например: max > 100" Margin="0,0,16,0"/>
+                <TextBlock Text="Описание цели:" 
                            VerticalAlignment="Center" 
                            FontSize="14" 
                            Foreground="#4A5568"
                            Margin="0,0,16,0"/>
-                <TextBox x:Name="PostHumanInput" Width="360" 
+                <TextBox x:Name="PostHumanInput" Width="420" Height="45" 
+                         TextWrapping="Wrap" AcceptsReturn="True"
                          Tag="Например: Максимум больше 100"/>
             </StackPanel>
         </GroupBox>
@@ -153,7 +154,8 @@
                          FontFamily="Consolas"
                          FontSize="14"
                          Background="White"
-                         BorderBrush="#E2E8F0"/>
+                         BorderBrush="#E2E8F0"
+                         MinHeight="200"/>      
             </GroupBox>
 
             <!-- Разделитель -->
