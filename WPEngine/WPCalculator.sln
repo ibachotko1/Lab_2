@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPEngine", "WPCalculator\WP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPEngine.Tests", "WPEngine.Tests\WPEngine.Tests.csproj", "{4C6920AD-827F-4F37-B842-03FAC3FC6375}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6920AD-827F-4F37-B842-03FAC3FC6375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6920AD-827F-4F37-B842-03FAC3FC6375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6920AD-827F-4F37-B842-03FAC3FC6375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6920AD-827F-4F37-B842-03FAC3FC6375}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
