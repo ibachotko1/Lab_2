@@ -5,7 +5,7 @@ WP Calculator - Движок слабейшего предусловия
 
 Быстрый старт
 Установка
-git clone https://github.com/your-username/wp-calculator.git
+git clone https://github.com/ibachotko1/Lab_2
 cd wp-calculator
 dotnet build
 dotnet run
