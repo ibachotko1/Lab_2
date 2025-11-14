@@ -1,85 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\",
+  "WorkspaceRootPath": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C6920AD-827F-4F37-B842-03FAC3FC6375}|WPEngine.Tests\\WPEngine.Tests.csproj|c:\\users\\miron\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\lab_2\\wpengine\\wpengine.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C6920AD-827F-4F37-B842-03FAC3FC6375}|WPEngine.Tests\\WPEngine.Tests.csproj|solutionrelative:wpengine.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\statements\\statement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\statement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\statements\\sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\statements\\ifstatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\ifstatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\statements\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\parser\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\parser\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\parser\\tokenreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\parser\\tokenreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\parser\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\parser\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\parser\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\parser\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\loggs\\steptracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\loggs\\steptracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\loggs\\steptracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\variableexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\variableexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\unaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\unaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\constantexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\constantexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\binaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\binaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\binaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|c:\\users\\miron\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\lab_2\\wpengine\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C6920AD-827F-4F37-B842-03FAC3FC6375}|WPEngine.Tests\\WPEngine.Tests.csproj|c:\\users\\dmitriy\\documents\\github\\lab_2\\wpengine\\wpengine.tests\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6920AD-827F-4F37-B842-03FAC3FC6375}|WPEngine.Tests\\WPEngine.Tests.csproj|solutionrelative:wpengine.tests\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPEngine.Tests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\parser\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\parser\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\statements\\statement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\statement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\statements\\sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\statements\\ifstatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\ifstatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\statements\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\statements\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\parser\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\parser\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\parser\\tokenreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\parser\\tokenreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\parser\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\parser\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\variableexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\variableexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\unaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\unaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\expressions\\constantexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\expressions\\constantexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{409F9E56-FDDF-4F08-8302-6CE1BD97AAAC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\wpcalculator\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A84F6ED4-2B12-4540-8B9D-E14B64BA8DF9}|WPCalculator\\WPEngine.csproj|solutionrelative:wpcalculator\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -90,269 +93,259 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPEngine.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "WPEngine.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPEngine.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "WPEngine.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAACsEAAAAAAAAAAAqwGoDAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T15:29:24.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TokenType.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\TokenType.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Parser\\TokenType.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\TokenType.cs",
-              "RelativeToolTip": "WPCalculator\\Parser\\TokenType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:50:47.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Assignment.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Assignment.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Statements\\Assignment.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Assignment.cs",
-              "RelativeToolTip": "WPCalculator\\Statements\\Assignment.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:37:49.189Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IfStatement.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\IfStatement.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Statements\\IfStatement.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\IfStatement.cs",
-              "RelativeToolTip": "WPCalculator\\Statements\\IfStatement.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAiwFgAAAAFAAAAAAAAAA==",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPEngine.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPEngine.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPEngine.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPEngine.Tests\\UnitTest1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:45:10.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Sequence.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Sequence.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Statements\\Sequence.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Sequence.cs",
-              "RelativeToolTip": "WPCalculator\\Statements\\Sequence.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAiwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:44:30.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Statement.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Statement.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Statements\\Statement.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Statement.cs",
-              "RelativeToolTip": "WPCalculator\\Statements\\Statement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:36:32.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-17T15:29:24.563Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "TokenReader.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\TokenReader.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Parser\\TokenReader.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\TokenReader.cs",
-              "RelativeToolTip": "WPCalculator\\Parser\\TokenReader.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "Title": "Sequence.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Sequence.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Statements\\Sequence.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Sequence.cs",
+              "RelativeToolTip": "WPCalculator\\Statements\\Sequence.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:50:13.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\Token.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Parser\\Token.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\Token.cs",
-              "RelativeToolTip": "WPCalculator\\Parser\\Token.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:51:03.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Parser.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\Parser.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Parser\\Parser.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\Parser.cs",
-              "RelativeToolTip": "WPCalculator\\Parser\\Parser.cs",
-              "ViewState": "AgIAAE0BAAAAAAAAAAAAAE0BAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:50:04.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T09:44:30.203Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "TokenType.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\TokenType.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Parser\\TokenType.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\TokenType.cs",
+              "RelativeToolTip": "WPCalculator\\Parser\\TokenType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:50:47.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Statement.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Statement.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Statements\\Statement.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Statement.cs",
+              "RelativeToolTip": "WPCalculator\\Statements\\Statement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:36:32.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TokenReader.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\TokenReader.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Parser\\TokenReader.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\TokenReader.cs",
+              "RelativeToolTip": "WPCalculator\\Parser\\TokenReader.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:50:13.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "StepTracker.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Loggs\\StepTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Loggs\\StepTracker.cs",
               "RelativeDocumentMoniker": "WPCalculator\\Loggs\\StepTracker.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Loggs\\StepTracker.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Loggs\\StepTracker.cs",
               "RelativeToolTip": "WPCalculator\\Loggs\\StepTracker.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T09:37:12.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VariableExpression.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\VariableExpression.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\VariableExpression.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\VariableExpression.cs",
-              "RelativeToolTip": "WPCalculator\\Expressions\\VariableExpression.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPEngine.Tests\\UnitTest.cs",
+              "RelativeDocumentMoniker": "WPEngine.Tests\\UnitTest.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPEngine.Tests\\UnitTest.cs",
+              "RelativeToolTip": "WPEngine.Tests\\UnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:31:52.577Z",
+              "WhenOpened": "2025-11-13T08:26:57.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "UnaryExpression.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\UnaryExpression.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\UnaryExpression.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\UnaryExpression.cs",
-              "RelativeToolTip": "WPCalculator\\Expressions\\UnaryExpression.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\Token.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Parser\\Token.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\Token.cs",
+              "RelativeToolTip": "WPCalculator\\Parser\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:35:27.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T09:51:03.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Expression.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\Expression.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\Expression.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\Expression.cs",
-              "RelativeToolTip": "WPCalculator\\Expressions\\Expression.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:28:33.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ConstantExpression.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\ConstantExpression.cs",
-              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\ConstantExpression.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\ConstantExpression.cs",
-              "RelativeToolTip": "WPCalculator\\Expressions\\ConstantExpression.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T09:30:52.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "BinaryExpression.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\BinaryExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\BinaryExpression.cs",
               "RelativeDocumentMoniker": "WPCalculator\\Expressions\\BinaryExpression.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\BinaryExpression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\BinaryExpression.cs",
               "RelativeToolTip": "WPCalculator\\Expressions\\BinaryExpression.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T09:32:28.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwEgAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IfStatement.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\IfStatement.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Statements\\IfStatement.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\IfStatement.cs",
+              "RelativeToolTip": "WPCalculator\\Statements\\IfStatement.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwFgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T10:14:50.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T09:45:10.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Assignment.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Statements\\Assignment.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Statements\\Assignment.cs",
+              "RelativeToolTip": "WPCalculator\\Statements\\Assignment.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:37:49.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\Parser.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Parser\\Parser.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Parser\\Parser.cs",
+              "RelativeToolTip": "WPCalculator\\Parser\\Parser.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:50:04.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VariableExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\VariableExpression.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\VariableExpression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\VariableExpression.cs",
+              "RelativeToolTip": "WPCalculator\\Expressions\\VariableExpression.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:31:52.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnaryExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\UnaryExpression.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\UnaryExpression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\UnaryExpression.cs",
+              "RelativeToolTip": "WPCalculator\\Expressions\\UnaryExpression.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:35:27.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Expression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\Expression.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\Expression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\Expression.cs",
+              "RelativeToolTip": "WPCalculator\\Expressions\\Expression.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:28:33.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConstantExpression.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\ConstantExpression.cs",
+              "RelativeDocumentMoniker": "WPCalculator\\Expressions\\ConstantExpression.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\Expressions\\ConstantExpression.cs",
+              "RelativeToolTip": "WPCalculator\\Expressions\\ConstantExpression.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:30:52.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:14:50.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\App.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\App.xaml",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\App.xaml",
               "RelativeToolTip": "WpfApp1\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-15T10:15:00.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\App.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\App.xaml.cs",
               "RelativeToolTip": "WpfApp1\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T10:19:26.248Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WpfApp1\\MainWindow.xaml",
               "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-15T10:14:50.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\packages.config",
+              "DocumentMoniker": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\packages.config",
               "RelativeDocumentMoniker": "WPCalculator\\packages.config",
-              "ToolTip": "C:\\Users\\miron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\packages.config",
+              "ToolTip": "C:\\Users\\Dmitriy\\Documents\\GitHub\\Lab_2\\WPEngine\\WPCalculator\\packages.config",
               "RelativeToolTip": "WPCalculator\\packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
