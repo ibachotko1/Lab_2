@@ -54,16 +54,12 @@ WPCalculator/
 # Клонирование репозитория
 git clone <repository-url>
 cd WPCalculator
-
 # Восстановление зависимостей
 dotnet restore
-
 # Сборка проекта
 dotnet build -c Release
-```
-
 # Запуск приложения
 dotnet run --project WpfApp1
-
 # Запуск тестов
 dotnet test
+```
